@@ -1,0 +1,301 @@
+body{
+    background-color: #FCEBB6;
+    color: #221811;
+    font-style: Tahoma;
+    background-image: url("https://github.com/wbratz/javajam/blob/master/javajam4/background.gif?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    color: #8C3826;
+    background-color: #D2B48C;
+    background-image: url("https://github.com/wbratz/javajam/blob/master/javajam4/javajamlogo.jpg?raw=true");
+    background-repeat: no-repeat;
+    padding-left: 240px;
+    color: #231814;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    color: #8C3826;
+}
+h4{
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+    text-transform: uppercase;
+    border-bottom: 0cm;
+    padding-bottom: 0%;
+}
+main{
+    padding: 2em;
+    display: block;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 2em;
+    display: block;
+    margin-left: 200px;
+    padding-top: 0em;
+    background-color: #FEF6C2;
+    overflow: auto;
+
+}
+nav{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+}
+footer{
+    background-color: #D2B48C;
+    font-size: .60em;
+    text-align: center;
+    padding: 1em;
+    border-top: 2px solid #8C3826;
+}
+#wrapper{
+    width: 80%;
+    background-color: #231814;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: #221811;
+    padding: 0%;
+
+}
+nav a{
+    text-decoration: none;
+}
+.details{
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#homehero{
+    height: 300px;
+    background-image: url("https://github.com/c9zealous/Javajam-Coffee-House-Website/blob/master/heroroad.jpg?raw=trueheroroad.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+*{
+    box-sizing: border-box;
+}
+
+#heromugs{
+    height: 300px;
+    background-image: url("https://github.com/c9zealous/Javajam-Coffee-House-Website/blob/master/heromugs.jpg?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#heroguitar{
+    height: 300px;
+    background-image: url("https://github.com/c9zealous/Javajam-Coffee-House-Website/blob/master/heroguitar.jpg?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#herojobs{
+    height: 300px;
+    background-image: url("herojobs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main h2, main h3, main h4, main p, main div, main ul, main dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+nav a:link{
+    color: #FEF6C2;
+}
+nav a:visited{
+    color: #D2B48C;
+}
+nav a:hover{
+    color: #CC9933;
+}
+nav ul{
+    padding-left: 0;
+}
+.float-left{
+    float:left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+.onethird{
+    float: left;
+    width: 33%;
+
+}
+nav a:link { color: #FEF6C2; }
+nav a:visited { color: #D2B48C; }
+nav a:hover { color: #CC9933; }
+
+#mobile{
+    display: none;
+    }
+    #desktop{
+    display: inline;
+    
+    }
+
+.item{
+    background-color: #FAF9F7;
+    margin: 1em;
+    padding: 1em;
+    overflow: auto;
+}
+#herocouch{
+    height: 300px;
+    background-image: url(https://github.com/wbratz/javajam/blob/master/javajam4/herocouch.jpg?raw=true);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}    
+@media only screen and (max-width:1024px ){
+    body{margin: 0;background-image: none;}
+    nav {
+        float: none;
+        width: auto;
+        padding-top: 0;
+        margin: 10px;
+        font-size: 1.3em;
+
+      }
+      
+      main {
+        padding: 0;
+        margin: 0;
+        font-size: 90%;
+      }
+      
+      footer {
+        grid-area: footer;
+      }
+      
+      /* Wrapper grid layout */
+      #wrapper {
+        width: auto;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+      }
+      nav ul {
+        padding: 0;
+        margin: 0;
+      }
+      nav a{
+        padding: 1em;
+        width: 8em;
+        font-weight: bold;
+        border-style: none;
+      }
+      
+      
+      header {
+        border-bottom: 5px solid #FEF6C2;
+        background-image: url('https://github.com/wbratz/javajam/blob/master/javajam4/javajammini.jpg?raw=true');
+      }
+      h1{
+        margin: 0;
+        margin-bottom: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 2.5em;
+      }
+      #heroroad, #heromugs, #heroguitar{
+        padding: 0;
+        margin: 0;
+      }
+
+}
+@media only screen and (max-width: 768px){
+    header{
+        background-image: url("javajammini.jpg");
+        height: 128px;
+    }
+    h1{
+        font-size: 2em;
+        text-align: center;
+        padding-left: 0;
+    }
+    nav a{
+        display: block;
+        width: auto;
+        border-bottom: 1px solid #FEF6C2;
+    }
+    nav li{
+        display: block;
+    }
+    main{
+        padding-top: 1px;
+    }
+    h2{
+        padding: 0.5em 0 0 0.5em;
+        margin-right: 0.5em;
+    }
+    .details{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #heroroad, #heromugs, #heroguitar{
+        background-image: none;
+        height: auto;
+        .float-left{
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+        #mobile{
+            display: none;
+            }
+            #desktop{
+            display: inline;
+            }
+      }
+      
+}
+table{
+    text-align: center;
+    width: 90%;
+    border-spacing: 0;
+}
+td, th{
+    padding: 10px;
+}
+tr:nth-of-type(odd){
+    background-color: #D2B48E;
+}
+form{
+    padding: 2em;
+}
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+input, textarea{
+    display: block;
+    margin-bottom: 1em;
+}
+#mySubmit{
+    margin-left: 9.5em;
+}
+audio{
+    display: block;
+    margin-top: 1em;
+}
